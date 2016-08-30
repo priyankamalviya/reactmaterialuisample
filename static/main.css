@@ -1,0 +1,108 @@
+
+a {
+  color: #ff4081;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+html {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(0, 0, 0, 0.6));
+  background-color: #FFFA02;
+  animation: rgb 20s infinite alternate;
+  height: 100%;
+  width: 100%;
+}
+
+@keyframes rgb {
+  10% {
+    background-color: #FF6B02;
+  }
+  20% {
+    background-color: #FF0602;
+  }
+  30% {
+    background-color: #FF0289;
+  }
+  40% {
+    background-color: #BF02FF;
+  }
+  50% {
+    background-color: #022CFF;
+  }
+  60% {
+    background-color: #02CBFF;
+  }
+  70% {
+    background-color: #02FFBB;
+  }
+  80% {
+    background-color: #02FF28;
+  }
+  90% {
+    background-color: #63FF02;
+  }
+  100% {
+    background-color: #c8FF02;
+  }
+}
+/*styling the heading */
+h1 {
+  font-family: "Sail", cursive;
+}
+
+/*styling the p tag */
+.card-content {
+  font-family: "Lobster", cursive;
+  font-size: 20px;
+  /*styling the card */
+}
+
+.row {
+  padding: 10px;
+}
+
+.card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+  .content {
+    height: 514px;
+  }
+
+  h1 {
+    height: auto;
+    font-size: 40px;
+  }
+
+  .card {
+    height: auto;
+    width: 90%;
+  }
+
+  .card-content {
+    font-size: 16px;
+  }
+}
+.card-action {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
